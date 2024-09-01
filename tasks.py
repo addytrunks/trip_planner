@@ -4,22 +4,6 @@ Task Breakdown: Divide the goal into smaller, manageable tasks that agents can e
     - City Selection: Analyze and pick the best cities to visit.
     - Local Tour Guide: Find a local expert to provide insights and recommendations.
     - Budget Analyst : Analyze the budget and provide recommendations.
-
-Template:
-  ---------
-  def [task_name](self, agent, [parameters]):
-      return Task(description=dedent(f'''
-      **Task**: [Provide a concise name or summary of the task.]
-      **Description**: [Detailed description of what the agent is expected to do, including actionable steps and expected outcomes. This should be clear and direct, outlining the specific actions required to complete the task.]
-
-      **Parameters**:
-      - [Parameter 1]: [Description]
-      - [Parameter 2]: [Description]
-      ... [Add more parameters as needed.]
-
-      **Note**: [Optional section for incentives or encouragement for high-quality work. This can include tips, additional context, or motivations to encourage agents to deliver their best work.]
-
-      '''), agent=agent)
 """
 
 from crewai import Task
