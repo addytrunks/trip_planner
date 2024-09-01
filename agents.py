@@ -6,13 +6,6 @@ WHAT DO OUR AGENTS WANT TO DO?
     1. City Selection Expert
     2. Local Tour Guide
     3. Budget Analyst
-
-NOTE:
-- Agents should be results driven and have a clear goal in mind
-- Role is their job title
-- Goals should actionable
-- Backstory should be their resume
-
 """
 
 from crewai import Agent
